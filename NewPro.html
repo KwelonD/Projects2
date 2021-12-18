@@ -2,34 +2,155 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Basic HTML Template</title>
-    <link rel="stylesheet" href="./CSS/NewPro.css">
+    <title>Morants Fan Page</title>
+    <link rel="stylesheet" href="./CSS/shared.css">
+    <link rel="stylesheet" href="animations.css">
     <!-- icon in page name -->
     <link rel="shortcut icon" href="./images/k.png" type="image/x-icon">
 </head>
 <body>
     
-    <div>
-        <h1>Basic CSS Demo</h1>
-    </div>
-
-    <div class="container">
-        <div class="squares">
-            <p>Box 1</p>
-        </div>
-
-        <div class="squares">
-            <p>Box 2</p>
-        </div>
-
-        <div class="squares">
-            <p>Box 3</p>
-        </div>
-    
-        <div class="squares">
-            <p>Box 4</p>
+    <!-- NAV -->
+    <div class="wrap">
+        <div class="menu-container">
+            <ul class="menu">
+                <a href="#home"><li>HOME</li></a>
+                <a href="#gallery"><li>GALLERY</li></a>
+                <a href="#signup"><li>SIGN UP</li></a>
+            </ul>
         </div>
     </div>
+    <!-- End NAV -->
+
+    <!-- Home -->
+    <div id="Home">
+        <div class="container">
+            <div class="text-center">
+                <span class="head-main">The Rookie</span>
+            </div>
+        </div>
+    </div>
+    <!-- End Home -->
+
+    <!-- Gallery -->
+    <section id="Gallery">
+        <div class="container">
+            <h1>Gallery</h1>
+            <div class="flex-container">
+                <!-- Photo Container 1-->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/Ja.png" alt="">
+                        <div>
+                            <h3>Click to Enlarge!</h3>
+                            <p>Grizzles New Power Player</p>
+                        </div>
+                    </div>
+                </div>
+                <!--  End photo Container 1 -->
+
+                <!-- Photo Container 2-->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/ja1.png" alt="">
+                        <div>
+                            <h3>Click to Enlarge!</h3>
+                            <p>Grizzles New Power Player</p>
+                        </div>
+                    </div>
+                </div>
+                <!--  End photo Container 2 -->
+
+                <!-- Photo Container 3-->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/ja2.png" alt="">
+                        <div>
+                            <h3>Click to Enlarge!</h3>
+                            <p>Grizzles New Power Player</p>
+                        </div>
+                    </div>
+                </div>
+                <!--  End photo Container 3-->
+
+                <!-- Photo Container 4-->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/ja3.png" alt="">
+                        <div>
+                            <h3>Click to Enlarge!</h3>
+                            <p>Grizzles New Power Player</p>
+                        </div>
+                    </div>
+                </div>
+                <!--  End photo Container 4 -->
+
+                <!-- Photo Container 5-->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/ja4.png" alt="">
+                        <div>
+                            <h3>Click to Enlarge!</h3>
+                            <p>Grizzles New Power Player</p>
+                        </div>
+                    </div>
+                </div>
+                <!--  End photo Container 5-->
+
+                <!-- Photo Container 6-->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/ja5.png" alt="">
+                        <div>
+                            <h3>Click to Enlarge!</h3>
+                            <p>Grizzles New Power Player</p>
+                        </div>
+                    </div>
+                </div>
+                <!--  End photo Container 6 -->
+            </div>
+        </div>
+    </section>
+    <!-- End Gallery -->
+
+    <!-- Signup -->
+    <section id="Contact"> 
+        <div class="container">
+            <div class="heading-padding">
+                <h1 class="heading-padding">Sign Ups</h1>
+                <div class="signups">
+                    <h2><span>Road to Championship</span>
+                        <br>Subscribe to get more information!
+                    </h2>
+                    <p class="signup-text">
+                        Please provide us with your basic contact information.
+                    </p>
+                    <div class="form">
+                        <form action="" method="post">
+                            <input class="signup" type="text" value="" placeholder="First Name">
+                            <input class="signup" type="text" value="" placeholder="Last Name"> 
+                            <input class="signup" type="text" value="" placeholder="Email"> 
+                            <input class="signup" type="text" value="" placeholder="Phone Number"> 
+                            <div class="form-spacer">
+                                <label class="terms">Terms and Conditions</label>
+                            </div>
+                            <div class="submit">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Signup -->
+
+    <!-- Footer -->
+    <div id="Footer">
+        www.Jaforchamphionship.grizz &nbsp;|&nbsp; &copy; 2021
+    </div>
+    <!-- End Footer -->
 
 </body>
 </html>
